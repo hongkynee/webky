@@ -1,1 +1,191 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Khám phá Việt Nam</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #d62828;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: #d62828;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 31%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .external-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                width: 100%;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Khám phá vẻ đẹp Việt Nam</h1>
+        <p>Những địa điểm du lịch nổi bật của Việt Nam</p>
+    </header>
+
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#dia-diem">Địa điểm</a>
+        <a href="#hinh-anh">Hình ảnh</a>
+    </nav>
+
+    <main>
+
+        <section id="gioi-thieu">
+            <h2>Giới thiệu</h2>
+
+            <p>
+                Việt Nam là một đất nước có nhiều cảnh đẹp thiên nhiên,
+                nền văn hóa đa dạng và nhiều địa điểm du lịch hấp dẫn.
+                Từ những bãi biển tuyệt đẹp đến những thành phố cổ kính,
+                Việt Nam luôn có nhiều điều thú vị để khám phá.
+            </p>
+        </section>
+
+        <section id="dia-diem">
+            <h2>Ba địa điểm nổi bật</h2>
+
+            <ul>
+                <li>Vịnh Hạ Long - Quảng Ninh</li>
+                <li>Phố cổ Hội An - Quảng Nam</li>
+                <li>Đà Nẵng - Thành phố biển xinh đẹp</li>
+            </ul>
+
+            <a
+                class="external-link"
+                href="https://vietnam.travel/"
+                target="_blank">
+                Tìm hiểu thêm về du lịch Việt Nam
+            </a>
+        </section>
+
+        <section id="hinh-anh">
+            <h2>Hình ảnh Việt Nam</h2>
+
+            <div class="gallery">
+
+                <img
+                    src="https://images.unsplash.com/photo-1528127269322-539801943592"
+                    alt="Phong cảnh Việt Nam">
+
+                <img
+                    src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b"
+                    alt="Phố cổ Hội An">
+
+                <img
+                    src="https://images.unsplash.com/photo-1528127269322-539801943592"
+                    alt="Cảnh đẹp thiên nhiên Việt Nam">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Trang web khám phá Việt Nam</p>
+        <p>Được tạo bằng HTML và CSS</p>
+    </footer>
+
+</body>
+</html>
+```
 
